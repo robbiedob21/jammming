@@ -3,7 +3,7 @@ import styles from '../../styles/SearchBar.module.css';
 
 function SearchBar(props) {
     const CLIENT_ID = '9e6a1e6b44af42459539301caa3dad84';
-    const REDIRECT_URI = 'http://localhost:3000';
+    const REDIRECT_URI = 'https://master--jammming-robbie.netlify.app/';
     const AUTH_ENDPOINT = 'https://accounts.spotify.com/authorize';
     const RESPONSE_TYPE = 'token';
     const SCOPE = "playlist-modify-public playlist-modify-private"
