@@ -1,0 +1,792 @@
+{
+    "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=artist%25Pale+Flag&type=track&market=NZ&locale=en-US%2Cen%3Bq%3D0.9&offset=0&limit=10",
+      "limit": 10,
+      "next": "https://api.spotify.com/v1/search?query=artist%25Pale+Flag&type=track&market=NZ&locale=en-US%2Cen%3Bq%3D0.9&offset=10&limit=10",
+      "offset": 0,
+      "previous": null,
+      "total": 800,
+      "items": [
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 252609,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZAM02224914"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/3VaTQ7Z1kSNaUFsaRrLo9Z"
+          },
+          "href": "https://api.spotify.com/v1/tracks/3VaTQ7Z1kSNaUFsaRrLo9Z",
+          "id": "3VaTQ7Z1kSNaUFsaRrLo9Z",
+          "is_playable": true,
+          "name": "Argent",
+          "popularity": 6,
+          "preview_url": "https://p.scdn.co/mp3-preview/ebef359561cdaebc365045af1e3aff6e79243d6b?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:3VaTQ7Z1kSNaUFsaRrLo9Z",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 1,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3DNWvQ3sQ3TNJalNBQ2c9R"
+            },
+            "href": "https://api.spotify.com/v1/albums/3DNWvQ3sQ3TNJalNBQ2c9R",
+            "id": "3DNWvQ3sQ3TNJalNBQ2c9R",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27341a3413554fd5619044ee602",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0241a3413554fd5619044ee602",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485141a3413554fd5619044ee602",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Delusional Exhibition",
+            "release_date": "2021-05-14",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:3DNWvQ3sQ3TNJalNBQ2c9R",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 261383,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZRI12101273"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/02SMZZsiI5ZS3aVfRWpxXj"
+          },
+          "href": "https://api.spotify.com/v1/tracks/02SMZZsiI5ZS3aVfRWpxXj",
+          "id": "02SMZZsiI5ZS3aVfRWpxXj",
+          "is_playable": true,
+          "name": "Delusional Exhibition",
+          "popularity": 2,
+          "preview_url": "https://p.scdn.co/mp3-preview/2cee1ed0075dffe869ef286fc01972f689db22ce?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:02SMZZsiI5ZS3aVfRWpxXj",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 310474,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "NZAM02224916"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2UxA5R5sfDMalPZRpmyOMl"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2UxA5R5sfDMalPZRpmyOMl",
+          "id": "2UxA5R5sfDMalPZRpmyOMl",
+          "is_playable": true,
+          "name": "Moribund",
+          "popularity": 8,
+          "preview_url": "https://p.scdn.co/mp3-preview/4312b78ae7cd46f0fc868f4d2d6101d563f4254f?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 3,
+          "type": "track",
+          "uri": "spotify:track:2UxA5R5sfDMalPZRpmyOMl",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 1,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/76s4DdoqzxnWFGrISpOPbP"
+            },
+            "href": "https://api.spotify.com/v1/albums/76s4DdoqzxnWFGrISpOPbP",
+            "id": "76s4DdoqzxnWFGrISpOPbP",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b273fcbc081932ad4f4eee766a77",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e02fcbc081932ad4f4eee766a77",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00004851fcbc081932ad4f4eee766a77",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Demise",
+            "release_date": "2019-07-24",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:76s4DdoqzxnWFGrISpOPbP",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/1EFm7d0paPA86ty9BdXgZD"
+              },
+              "href": "https://api.spotify.com/v1/artists/1EFm7d0paPA86ty9BdXgZD",
+              "id": "1EFm7d0paPA86ty9BdXgZD",
+              "name": "Liam Hand",
+              "type": "artist",
+              "uri": "spotify:artist:1EFm7d0paPA86ty9BdXgZD"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 201073,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZRI11901758"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2e71eFskaZiHmSYliNH4CD"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2e71eFskaZiHmSYliNH4CD",
+          "id": "2e71eFskaZiHmSYliNH4CD",
+          "is_playable": true,
+          "name": "Demise",
+          "popularity": 1,
+          "preview_url": "https://p.scdn.co/mp3-preview/80765b394d40e58d99d80c6df7d759e5e101f089?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:2e71eFskaZiHmSYliNH4CD",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1OegWC0q4pRg55X3mu0zAm"
+            },
+            "href": "https://api.spotify.com/v1/albums/1OegWC0q4pRg55X3mu0zAm",
+            "id": "1OegWC0q4pRg55X3mu0zAm",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27368b42ae94575259d60a1229d",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0268b42ae94575259d60a1229d",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485168b42ae94575259d60a1229d",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Emergence",
+            "release_date": "2019-08-09",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:1OegWC0q4pRg55X3mu0zAm",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 206004,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZRI11901754"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/5zIAQc0uvS045WE3afdlEJ"
+          },
+          "href": "https://api.spotify.com/v1/tracks/5zIAQc0uvS045WE3afdlEJ",
+          "id": "5zIAQc0uvS045WE3afdlEJ",
+          "is_playable": true,
+          "name": "The Storm",
+          "popularity": 3,
+          "preview_url": "https://p.scdn.co/mp3-preview/df376cb9010ad5beb5a068f5576aecfe5d515b64?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:5zIAQc0uvS045WE3afdlEJ",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 301443,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZAM02224919"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2kRzGaz2wcxPachBysvx4t"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2kRzGaz2wcxPachBysvx4t",
+          "id": "2kRzGaz2wcxPachBysvx4t",
+          "is_playable": true,
+          "name": "Human Error",
+          "popularity": 13,
+          "preview_url": "https://p.scdn.co/mp3-preview/255635e5bddee4026156b6906822ba548c0d0088?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 6,
+          "type": "track",
+          "uri": "spotify:track:2kRzGaz2wcxPachBysvx4t",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1OegWC0q4pRg55X3mu0zAm"
+            },
+            "href": "https://api.spotify.com/v1/albums/1OegWC0q4pRg55X3mu0zAm",
+            "id": "1OegWC0q4pRg55X3mu0zAm",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27368b42ae94575259d60a1229d",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0268b42ae94575259d60a1229d",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485168b42ae94575259d60a1229d",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Emergence",
+            "release_date": "2019-08-09",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:1OegWC0q4pRg55X3mu0zAm",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 211040,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "NZRI11901757"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1npYw3o8MJCDVdDSskhKRP"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1npYw3o8MJCDVdDSskhKRP",
+          "id": "1npYw3o8MJCDVdDSskhKRP",
+          "is_playable": true,
+          "name": "Breaking the Cage",
+          "popularity": 2,
+          "preview_url": "https://p.scdn.co/mp3-preview/6569b430a2d6442e24405f0c81eabbc1ed9b4779?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 4,
+          "type": "track",
+          "uri": "spotify:track:1npYw3o8MJCDVdDSskhKRP",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 380785,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZAM02224918"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/00Q9spuDi4ryi33UmRZvww"
+          },
+          "href": "https://api.spotify.com/v1/tracks/00Q9spuDi4ryi33UmRZvww",
+          "id": "00Q9spuDi4ryi33UmRZvww",
+          "is_playable": true,
+          "name": "We Remember",
+          "popularity": 6,
+          "preview_url": "https://p.scdn.co/mp3-preview/d004702f2e86b12078ee5d3e4f933d1e720a50b4?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 5,
+          "type": "track",
+          "uri": "spotify:track:00Q9spuDi4ryi33UmRZvww",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 306985,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZAM02224917"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/5Jq9JExqJ6CyOnHik5PGXF"
+          },
+          "href": "https://api.spotify.com/v1/tracks/5Jq9JExqJ6CyOnHik5PGXF",
+          "id": "5Jq9JExqJ6CyOnHik5PGXF",
+          "is_playable": true,
+          "name": "The Summit",
+          "popularity": 6,
+          "preview_url": "https://p.scdn.co/mp3-preview/dcdf719b56f60e6c0ba9af740c201f83ed5224b6?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 4,
+          "type": "track",
+          "uri": "spotify:track:5Jq9JExqJ6CyOnHik5PGXF",
+          "is_local": false
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "total_tracks": 6,
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2vbEwaV7B8DMwqlVzv1nPh"
+            },
+            "href": "https://api.spotify.com/v1/albums/2vbEwaV7B8DMwqlVzv1nPh",
+            "id": "2vbEwaV7B8DMwqlVzv1nPh",
+            "images": [
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000b27310ff31ae6597d8f281a535e1",
+                "height": 640,
+                "width": 640
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d00001e0210ff31ae6597d8f281a535e1",
+                "height": 300,
+                "width": 300
+              },
+              {
+                "url": "https://i.scdn.co/image/ab67616d0000485110ff31ae6597d8f281a535e1",
+                "height": 64,
+                "width": 64
+              }
+            ],
+            "name": "Imperium",
+            "release_date": "2024-01-04",
+            "release_date_precision": "day",
+            "type": "album",
+            "uri": "spotify:album:2vbEwaV7B8DMwqlVzv1nPh",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+                },
+                "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+                "id": "0P15pdle2tbrRyzkS4bBCG",
+                "name": "Pale Flag",
+                "type": "artist",
+                "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+              }
+            ],
+            "is_playable": true
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0P15pdle2tbrRyzkS4bBCG"
+              },
+              "href": "https://api.spotify.com/v1/artists/0P15pdle2tbrRyzkS4bBCG",
+              "id": "0P15pdle2tbrRyzkS4bBCG",
+              "name": "Pale Flag",
+              "type": "artist",
+              "uri": "spotify:artist:0P15pdle2tbrRyzkS4bBCG"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 252388,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "NZAM02224915"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/1o1VRV1VUgeVYrLCkkVuAQ"
+          },
+          "href": "https://api.spotify.com/v1/tracks/1o1VRV1VUgeVYrLCkkVuAQ",
+          "id": "1o1VRV1VUgeVYrLCkkVuAQ",
+          "is_playable": true,
+          "name": "No Redemption",
+          "popularity": 6,
+          "preview_url": "https://p.scdn.co/mp3-preview/7fa268478c2af4765696a9f4552e67bd16de76d1?cid=24ae8571bc124fc8b027ba06079dbb7a",
+          "track_number": 2,
+          "type": "track",
+          "uri": "spotify:track:1o1VRV1VUgeVYrLCkkVuAQ",
+          "is_local": false
+        }
+      ]
+    }
+  }
