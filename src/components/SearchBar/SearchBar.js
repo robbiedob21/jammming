@@ -20,7 +20,7 @@ function SearchBar(props) {
       }
 
       props.onTokenChange(token);
-    }, [])
+    }, [props])
   
     function logout(){
       props.onTokenChange('');
