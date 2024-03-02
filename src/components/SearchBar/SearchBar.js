@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import styles from '../../styles/SearchBar.module.css';
 
 function SearchBar(props) {
     const CLIENT_ID = '9e6a1e6b44af42459539301caa3dad84';
@@ -27,15 +28,17 @@ function SearchBar(props) {
     }
 
     return (
-      <header>
-        <h1>Jammming</h1>
-        {!props.token ? <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&scope=${SCOPE}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login</a>: <button onClick={logout}>Logout</button>}
+      <header className={styles.header}>
+        <h1 className={styles.title}>Jammming</h1>
         <div id='search-bar'>
           <form onSubmit={props.handleSearchSubmit}>
-            <input type='text' id='search' name='search' placeholder='Search for a playlist' value={props.searchInput} onChange={props.onInputChange}/>
-            <input type='submit' id='search' name='search' value='Search'/>
+            <input type='text' id='search' name='search' placeholder='Search for a track' value={props.searchInput} onChange={props.onInputChange} className={styles.search}/>
+            <input type='submit' id='search' name='search' value='Search' className={styles.searchbtn}/>
           </form>
         </div>
+        {!props.token ? 
+          <a href={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&scope=${SCOPE}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`} className={styles.loginBtn}>Login</a>
+          : <button onClick={logout} className={styles.loginBtn}>Logout</button>}
       </header>
     )
 }

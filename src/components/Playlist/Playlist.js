@@ -1,47 +1,19 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import { response } from "express";
+import styles from '../../styles/Playlist.module.css'
+import Track from "../Track/Track";
 
 function Playlist(props){
     const [playlistName, setPlaylistName] = useState('My Playlist');
     const [userId, setUserId] = useState('');
+    const [saving, setSaving] = useState(false)
 
     function handlePlaylistNameChange(e){
         setPlaylistName(e.target.value);
     }
 
-    function addSongsToPlaylist(playlist_id){
-      const addItemToPlaylistEndpoint = `https://api.spotify.com/v1/playlists/${playlist_id}/tracks`
-      const playlistArray = props.playlist.map(track => track.uri);
-      const options = {
-        method: 'post',
-        headers: {
-          Authorization: `Bearer ${props.token}`,
-          'Content-Type': 'application/json',
-        },
-        data: {
-          'uris': playlistArray
-        }
-      };
-
-      axios(addItemToPlaylistEndpoint, options)
-        .response(response => console.log(response))
-    }
-
-    async function handleSaveToSpotify(e){
-      e.preventDefault();
-      // API Call to add playlist to Spotify account
-      if(!userId){
-        const {data} = await axios.get('https://api.spotify.com/v1/me', {
-          headers: {
-            Authorization: `Bearer ${props.token}`
-          }
-        })
-
-        setUserId(data.uri.split(':')[2]);
-      }
-
-      const url = `https://api.spotify.com/v1/users/${userId}/playlists`;
+    async function createPlaylist(user) {
+      const url = `https://api.spotify.com/v1/users/${user}/playlists`;
 
       const playlistData = {
         name: playlistName,
@@ -58,31 +30,76 @@ function Playlist(props){
         data: playlistData,
       };
       
-      axios(url, options)
+      await axios(url, options)
         .then(response => addSongsToPlaylist(response.data.uri.split(':')[2]))
         .catch(error => console.error(error));
     }
 
+    async function addSongsToPlaylist(playlist_id){
+      const addItemToPlaylistEndpoint = `https://api.spotify.com/v1/playlists/${playlist_id}/tracks`
+      const playlistArray = props.playlist.map(track => track.uri);
+      const options = {
+        method: 'post',
+        headers: {
+          Authorization: `Bearer ${props.token}`,
+          'Content-Type': 'application/json',
+        },
+        data: {
+          'uris': playlistArray
+        }
+      };
+
+      await axios(addItemToPlaylistEndpoint, options)
+        .then(alert(`${playlistName} saved to Spotify`))
+        .catch(error => console.error(error));
+
+        setSaving(false);
+    }
+
+    async function handleSaveToSpotify(e){
+      e.preventDefault();
+      setSaving(true);
+      // API Call to add playlist to Spotify account
+      if(!userId){
+        await axios.get('https://api.spotify.com/v1/me', {
+          headers: {
+            Authorization: `Bearer ${props.token}`
+          }
+        })
+        .then(response => {
+          setUserId(response.data.uri.split(':')[2]);
+          createPlaylist(response.data.uri.split(':')[2]);
+        })
+        .catch(error => console.error(error));
+      } else {
+        createPlaylist(userId);
+      }
+    }
+
     return (
         <section id='playlist'>
-        <h2>Playlist</h2>
-        <form><input value={playlistName} onChange={handlePlaylistNameChange}/></form>
-        <ul>
+        <form className={styles.playlistForm}><input value={playlistName} onChange={handlePlaylistNameChange} className={styles.playlistTitle}/></form>
+        <ul id='playlistTracks'>
           {
             props.playlist.map((track, index) => {
+              if(index >= 100){
+                alert('Max number of songs added.')
+              }
               return (
-                <li key={index}>
-                  <img width={'100px'} src={track.albumImage} alt=""/>
-                  <div>
-                    <h3>{track.name}</h3>
-                    <p>{track.artist} | {track.album}</p>
-                  </div>
-                  <button onClick={props.handleRemoveFromPlaylist} value={track.id}>-</button>
-                </li>
-              )})
+                <Track 
+                  index={index}
+                  handleEvent={props.handleRemoveFromPlaylist}
+                  symbol='-'
+                  albumImage={track.albumImage}
+                  trackName={track.name}
+                  artist={track.artist}
+                  album={track.album}
+                />
+              )
+            })
           }
         </ul>
-        <button onClick={handleSaveToSpotify}>Save to Spotify</button>
+        <button onClick={handleSaveToSpotify} className={styles.saveToSpotify}>{saving ? 'Saving...' : 'Save to Spotify'}</button>
       </section>
     )
 }

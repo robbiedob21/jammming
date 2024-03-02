@@ -1,0 +1,57 @@
+ul {
+    display: grid;
+    gap: 0.25rem;
+    padding: 0;
+}
+
+.saveToSpotify{
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 0px solid;
+    background-color: transparent;
+    padding-inline: 1rem;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: blueviolet;
+    transition: border 0.25s linear,
+        color 0.25s linear,
+        background-color 0.25s linear,
+        box-shadow 0.25s linear;
+}
+
+.saveToSpotify:hover{
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+
+.saveToSpotify:active{
+    box-shadow: 0 0 0 4px blueviolet;
+}
+
+.playlistForm {
+    margin-block: 19.92px;
+}
+
+.playlistTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: aliceblue;
+    border: 0px;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .playlistForm {
+        margin-block: 13.28px;
+    }
+
+    .playlistTitle{
+        font-size: 1rem;
+    }
+}

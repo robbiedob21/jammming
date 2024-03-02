@@ -1,0 +1,12 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 1rem;
+    gap: 1rem;
+}
+
+.main > * {
+    padding: 0.5rem;
+}
+
+

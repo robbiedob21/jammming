@@ -1,0 +1,80 @@
+.searchbtn {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid;
+}
+
+.loginBtn{
+    box-sizing: content-box;
+    min-height: 2rem;
+    min-width: 5rem;
+    text-align: center;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding-inline: 1rem;
+    padding-block: 0.25rem;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    color: white;
+    background-color: blueviolet;
+    transition: border 0.25s linear,
+        color 0.25s linear,
+        background-color 0.25s linear,
+        box-shadow 0.25s linear;
+}
+
+.loginBtn:hover{
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    background-color: white;
+}
+
+.loginBtn:active{
+    box-shadow: 0 0 0 4px blueviolet;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+    border-bottom: 2px solid;
+    background-color: aliceblue;
+}
+
+.search {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-right: 0 solid;
+    border-radius: 4px 0 0 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-block: 1rem;
+    }
+
+    .title{
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    .search, .searchbtn {
+        font-size: 0.75rem;
+    }
+
+    .loginBtn{
+        font-size: 1rem;
+        min-height: 1.5rem;
+        min-width: 4rem;
+    }
+}

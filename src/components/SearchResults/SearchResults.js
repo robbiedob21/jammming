@@ -1,4 +1,5 @@
 import React from "react";
+import Track from "../Track/Track";
 
 function SearchResults(props){
 
@@ -7,17 +8,19 @@ function SearchResults(props){
         <h2>Search Results</h2>
         <ul>
           {
-            props.searchResults.map((track) => {
+            props.searchResults.map((track, index) => {
               return (
-                <li id={`song${track.id}`} key={track.id}>
-                  <img width={'100px'} src={track.albumImage} alt=""/>
-                  <div>
-                    <h3>{track.name}</h3>
-                    <p>{track.artist} | {track.album}</p>
-                  </div>
-                  <button onClick={props.handleAddToPlaylist} value={track.id}>+</button>
-                </li>
-              )})
+                <Track 
+                  index={index}
+                  handleEvent={props.handleAddToPlaylist}
+                  symbol='+'
+                  albumImage={track.albumImage}
+                  trackName={track.name}
+                  artist={track.artist}
+                  album={track.album}
+                />
+              )
+            })
           }
         </ul>
       </section>

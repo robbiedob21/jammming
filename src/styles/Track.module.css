@@ -1,0 +1,64 @@
+h3, h4, p {
+    margin-block: 4px;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+p {
+    font-style: italic;
+}
+
+li{
+    list-style: none;
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 100px 1fr 24px;
+    gap: 0.5rem;
+    align-items: center;
+    border: 2px solid grey;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+@media screen and (max-width: 768px) {
+    .track {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .trackTitle {
+        font-size: 0.875rem;
+    }
+
+    .artist {
+        font-size: 0.75rem;
+    }
+
+    .albumName {
+        display: none;
+    }
+}
+
+img {
+    border-radius: 2px;
+    max-width: 100%;
+}
+
+button {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 0px solid;
+    background-color: transparent;
+}
